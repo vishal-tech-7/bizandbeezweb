@@ -1,0 +1,228 @@
+#AboutUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 80px;
+    gap: 40px;
+    overflow-x: hidden;
+}
+.aboutus-container{
+    display: flex;
+    align-items: start;
+}
+.aboutus-heading{
+    font-size: 30px;
+    border-bottom: 2px solid red;
+}
+.aboutus-img-container{
+    width: 50%;
+}
+.aboutusimg{
+    width: 90%;
+}
+.aboutus-para-container{
+    width: 50%;
+    margin-top: 70px;
+}
+.aboutus-para{
+    font-size: 20px;
+    line-height: 30px;
+}
+.aboutus-lernmore-btn{
+    background-color: #117cd4;
+    color: white;
+    margin-top: 20px;
+}
+
+@media(min-width:1150px) and (max-width:1285.99px){
+    #AboutUs{
+        padding: 40px 80px;
+        gap: 36px;
+    }
+    .aboutus-para-container{
+        width: 50%;
+        margin-top: 40px;
+    }
+    .aboutus-para{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+}
+@media(min-width:1000px) and (max-width:1149.99px){
+    #AboutUs{
+        padding: 40px 80px;
+        gap: 36px;
+    }
+    .aboutus-img-container{
+        width: 60%;
+    }
+    .aboutusimg{
+        width: 100%;
+    }
+    .aboutus-para-container{
+        width: 50%;
+        margin-top: 40px;
+    }
+    .aboutus-para{
+        font-size: 18px;
+        line-height: 21px;
+    }
+}
+@media(min-width:800px) and (max-width:999.99px){
+    #AboutUs{
+        padding: 40px 0;
+        gap: 28px;
+    }
+    .aboutus-container{
+        gap: 0;
+    }
+    .aboutus-img-container{
+        width: 50%;
+    }
+    .aboutusimg{
+        width: 100%;
+    }
+    .aboutus-para-container{
+        width: 50%;
+        margin-top: 40px;
+    }
+    .aboutus-para{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+@media(min-width:600px) and (max-width:799.99px){
+    #AboutUs{
+        padding: 40px 5px;
+        gap: 25px;
+    }
+    .aboutus-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutus-heading{
+        font-size: 29px;
+        border-bottom: 2px solid red;
+    }
+    .aboutus-img-container{
+        width: 60%;
+    }
+    .aboutusimg{
+        width: 100%;
+    }
+    .aboutus-para-container{
+        width: 95%;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutus-para{
+        font-size: 18px;
+        line-height: 17px;
+        text-align: center;
+    }
+}
+@media(min-width:450px) and (max-width:599.99px){
+    #AboutUs{
+        padding: 40px 5px;
+        gap: 25px;
+    }
+    .aboutus-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutus-heading{
+        font-size: 29px;
+        border-bottom: 2px solid red;
+    }
+    .aboutus-img-container{
+        width: 70%;
+    }
+    .aboutusimg{
+        width: 100%;
+    }
+    .aboutus-para-container{
+        width: 95%;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -9px;
+    }
+    .aboutus-para{
+        font-size: 16px;
+        line-height: 17px;
+        text-align: center;
+    }
+}
+@media(min-width:370px) and (max-width:499.99px){
+    #AboutUs{
+        padding: 20px 5px;
+        gap: 20px;
+    }
+    .aboutus-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutus-heading{
+        font-size: 25px;
+        border-bottom: 2px solid red;
+    }
+    .aboutus-img-container{
+        width: 90%;
+    }
+    .aboutusimg{
+        width: 100%;
+    }
+    .aboutus-para-container{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -2px;
+    }
+    .aboutus-para{
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+    }
+}
+@media(max-width:369.99px){
+    #AboutUs{
+        padding: 20px 5px;
+        gap: 20px;
+    }
+    .aboutus-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutus-heading{
+        font-size: 25px;
+        border-bottom: 2px solid red;
+    }
+    .aboutus-img-container{
+        width: 100%;
+    }
+    .aboutusimg{
+        width: 100%;
+    }
+    .aboutus-para-container{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -2px;
+    }
+    .aboutus-para{
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+    }
+}

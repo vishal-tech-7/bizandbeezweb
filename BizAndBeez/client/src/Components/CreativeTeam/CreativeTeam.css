@@ -1,0 +1,88 @@
+.creative-team {
+  width: 100%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.creativeteam-headtext {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.creative-team-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.team-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 20px;
+  padding: 20px;
+  scrollbar-width: none; /* Firefox */
+}
+
+.team-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.individual-teammember-container {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.team-memberImg {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-button-left,
+.scroll-button-right {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 2;
+  color: black;
+  transition: transform 0.2s ease-in-out;
+}
+
+.scroll-button-left:hover,
+.scroll-button-right:hover {
+  transform: translateY(-50%) scale(1.2);
+}
+
+.scroll-button-left {
+  left: 10px;
+}
+
+.scroll-button-right {
+  right: 10px;
+}
+
+@media (max-width: 600px) {
+  .team-container {
+    gap: 10px;
+  }
+  .individual-teammember-container {
+    width: 180px;
+  }
+  .team-memberImg {
+    width: 100%;
+  }
+}

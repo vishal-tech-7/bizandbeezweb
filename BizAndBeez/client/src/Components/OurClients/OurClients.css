@@ -1,0 +1,108 @@
+.client-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #FDFAFA;
+}
+
+.clients-para {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px; /* Space between text and images */
+}
+
+.logoimages {
+    display: flex;
+    flex-wrap: wrap; /* Ensure images wrap to fit the container */
+    justify-content: center; /* Center images */
+    align-items: center;
+    gap: 30px; /* Consistent spacing between images */
+    padding: 20px;
+    border: 1px solid red;
+}
+
+.logoimages img {
+    width: 30%; /* Default image size */
+    max-width: 150px; /* Cap image size */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid red;
+    
+    
+    object-fit: contain; /* Ensure proper image fit */
+}
+
+/* Adjustments for 1030px to 900px range */
+@media (min-width: 900px) and (max-width: 1030px) {
+    .logoimages {
+        flex-wrap: nowrap; /* Ensure images stay in a row */
+        justify-content: space-between; /* Space images evenly */
+        gap: 20px; /* Adjust spacing between images */
+        border: 1px solid red;
+    }
+    .logoimages img {
+        width: 22%; /* Adjust width to fit all images in a row */
+        max-width: 180px; /* Set a max width for consistency */
+    }
+}
+
+/* Adjustments for 601px to 900px */
+@media (max-width: 900px) and (min-width: 601px) {
+    .clients-para {
+        font-size: 40px; /* Reduce text size slightly */
+    }
+    .logoimages {
+        flex-wrap: wrap; /* Allow wrapping for smaller screens */
+        justify-content: center;
+        border: 1px solid red;
+    }
+    .logoimages img {
+        width: 35%; /* Medium image size */
+        max-width: 160px; /* Cap size */
+    }
+}
+
+/* Adjustments for 480px to 600px range */
+@media (min-width: 500px) and (max-width: 600px) {
+    .logoimages {
+        justify-content: space-around; /* Distribute images evenly */
+        flex-wrap: wrap;
+    }
+    .logoimages img {
+        width: 40%; /* Increase size for better visibility */
+        max-width: 180px; /* Cap size to prevent overflow */
+    .client-container{
+        margin-top: 40px;
+    }
+}
+
+/* Adjustments for small screens (below 480px) */
+@media (max-width: 480px) {
+    .logoimages {
+        flex-direction: column; /* Stack images vertically */
+        gap: 30px; /* Add spacing between rows */
+        align-items: center; /* Center align images */
+    }
+    .logoimages img {
+        width: 60%; /* Make images larger for better visibility */
+        max-width: 200px; /* Limit maximum size for consistency */
+    }
+    .client-container{
+        margin-top: 40px;
+    
+    }
+}
+
+/* Default styling for large screens (above 1030px) */
+@media (min-width: 1030px) {
+    .clients-para {
+        font-size: 50px; /* Restore original font size */
+    }
+    .logoimages img {
+        width: 30%; /* Default image size */
+        max-width: 200px; /* Maintain reasonable size */
+    }
+}
+}

@@ -1,0 +1,462 @@
+#ClientReviews{
+    width: 100%;
+    height: 450px;
+    background-color: #FDFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.clientReviews-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.clientReview-headtext{
+    font-size: 30px;
+    color: #0E2538;
+    border-bottom: 1px solid #0E2538;
+}
+.reviews-container{
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.invidual-review-container{
+    width: 500px;
+    height: 250px;
+    background-color: #1D9BF0;
+    padding: 20px;
+    border-radius: 12px;
+}
+.individual-userData{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+.userIcon{
+    width: 35px;
+    height: 35px;
+}
+.username{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.userposition{
+    font-size: 13px;
+}
+.individual-userReview{
+    color: #FDFAFA;
+    font-size: 20px;
+    width: 90%;
+    line-height: 25px;
+    margin-left: 40px;
+}
+
+@media(min-width:1150px) and (max-width:1285.99px){
+    #ClientReviews{
+        width: 100%;
+        height: 430px;
+        padding-top: 30px;
+    }
+    .clientReviews-container{
+        width: 100%;
+        gap: 40px;
+    }
+    .clientReview-headtext{
+        font-size: 30px;
+    }
+    .reviews-container{
+        width: 100%;
+        padding: 0 20px;
+        gap: 20px;
+    }
+    .invidual-review-container{
+        width: 500px;
+        height: auto;
+        padding: 20px;
+        border-radius: 12px;
+    }
+    .individual-userData{
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .userIcon{
+        width: 35px;
+        height: 35px;
+    }
+    .username{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+    .userposition{
+        font-size: 13px;
+    }
+    .individual-userReview{
+        font-size: 19px;
+        width: 90%;
+        line-height: 25px;
+        margin-left: 40px;
+    }
+}
+@media(min-width:950px) and (max-width:1149.99px){
+    #ClientReviews{
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
+    .clientReviews-container{
+        width: 100%;
+        gap: 30px;
+    }
+    .clientReview-headtext{
+        font-size: 28px;
+    }
+    .reviews-container{
+        width: 100%;
+        padding: 0 10px;
+        gap: 15px;
+    }
+    .invidual-review-container{
+        width: 500px;
+        height: auto;
+        padding: 20px;
+        border-radius: 12px;
+    }
+    .individual-userData{
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .userIcon{
+        width: 34px;
+        height: 34px;
+    }
+    .username{
+        font-size: 19px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+    .userposition{
+        font-size: 12px;
+    }
+    .individual-userReview{
+        font-size: 17px;
+        width: 90%;
+        line-height: 20px;
+        margin-left: 40px;
+    }
+}
+@media(min-width:750px) and (max-width:949.99px){
+    #ClientReviews{
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
+    .clientReviews-container{
+        width: 100%;
+        gap: 30px;
+    }
+    .clientReview-headtext{
+        font-size: 27px;
+    }
+    .reviews-container{
+        width: 100%;
+        padding: 0 10px;
+        gap: 15px;
+    }
+    .invidual-review-container{
+        width: 400px;
+        height: auto;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .individual-userData{
+        gap: 9px;
+        margin-bottom: 20px;
+    }
+    .userIcon{
+        width: 33px;
+        height: 33px;
+    }
+    .username{
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 6px;
+    }
+    .userposition{
+        font-size: 11px;
+    }
+    .individual-userReview{
+        font-size: 16px;
+        width: 100%;
+        line-height: 20px;
+        margin-left: 0;
+    }
+}
+@media(min-width:500px) and (max-width:749.99px){
+    #ClientReviews{
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
+    .clientReviews-container{
+        width: 100%;
+        gap: 30px;
+    }
+    .clientReview-headtext{
+        font-size: 27px;
+    }
+    .reviews-container{
+        width: 100%;
+        padding: 0 10px;
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .invidual-review-container{
+        width: 400px;
+        height: 250px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .individual-userData{
+        gap: 9px;
+        margin-bottom: 20px;
+    }
+    .userIcon{
+        width: 33px;
+        height: 33px;
+    }
+    .username{
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 6px;
+    }
+    .userposition{
+        font-size: 11px;
+    }
+    .individual-userReview{
+        font-size: 18px;
+        width: 100%;
+        line-height: 20px;
+        margin-left: 0;
+    }
+}
+@media(min-width:445px) and (max-width:499.99px){
+    #ClientReviews{
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
+    .clientReviews-container{
+        width: 100%;
+        gap: 20px;
+    }
+    .clientReview-headtext{
+        font-size: 26px;
+    }
+    .reviews-container{
+        width: 100%;
+        padding: 0 10px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .invidual-review-container{
+        width: 350px;
+        height: 210px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .individual-userData{
+        gap: 9px;
+        margin-bottom: 20px;
+    }
+    .userIcon{
+        width: 32px;
+        height: 32px;
+    }
+    .username{
+        font-size: 17px;
+        font-weight: bold;
+        margin-bottom: 6px;
+    }
+    .userposition{
+        font-size: 10px;
+    }
+    .individual-userReview{
+        font-size: 17px;
+        text-align: center;
+        width: 100%;
+        line-height: 19px;
+        margin-left: 0;
+    }
+}
+@media(min-width:380px) and (max-width:444.99px){
+    #ClientReviews{
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
+    .clientReviews-container{
+        width: 100%;
+        gap: 20px;
+    }
+    .clientReview-headtext{
+        font-size: 25px;
+    }
+    .reviews-container{
+        width: 100%;
+        padding: 0 10px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .invidual-review-container{
+        width: 350px;
+        height: 220px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .individual-userData{
+        gap: 9px;
+        margin-bottom: 20px;
+    }
+    .userIcon{
+        width: 33px;
+        height: 33px;
+    }
+    .username{
+        font-size: 17.5px;
+        font-weight: bold;
+        margin-bottom: 6px;
+    }
+    .userposition{
+        font-size: 10px;
+    }
+    .individual-userReview{
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+        line-height: 19px;
+        margin-left: 0;
+    }
+}
+@media(min-width:300px) and (max-width:379.99px){
+    #ClientReviews{
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
+    .clientReviews-container{
+        width: 100%;
+        gap: 20px;
+    }
+    .clientReview-headtext{
+        font-size: 25px;
+    }
+    .reviews-container{
+        width: 100%;
+        padding: 0 10px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .invidual-review-container{
+        width: 300px;
+        height: 210px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .individual-userData{
+        gap: 9px;
+        margin-bottom: 10px;
+    }
+    .userIcon{
+        width: 33px;
+        height: 33px;
+    }
+    .username{
+        font-size: 17.5px;
+        font-weight: bold;
+        margin-bottom: 6px;
+    }
+    .userposition{
+        font-size: 10px;
+    }
+    .individual-userReview{
+        font-size: 15px;
+        text-align: center;
+        width: 100%;
+        line-height: 18px;
+        margin-left: 0;
+    }
+}
+@media(max-width:299.99px){
+    #ClientReviews{
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
+    .clientReviews-container{
+        width: 100%;
+        gap: 20px;
+    }
+    .clientReview-headtext{
+        font-size: 25px;
+    }
+    .reviews-container{
+        width: 100%;
+        padding: 0 10px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .invidual-review-container{
+        width: 250px;
+        height: 210px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .individual-userData{
+        gap: 9px;
+        margin-bottom: 10px;
+    }
+    .userIcon{
+        width: 33px;
+        height: 33px;
+    }
+    .username{
+        font-size: 17.5px;
+        font-weight: bold;
+        margin-bottom: 6px;
+    }
+    .userposition{
+        font-size: 10px;
+    }
+    .individual-userReview{
+        font-size: 15px;
+        text-align: center;
+        width: 100%;
+        line-height: 18px;
+        margin-left: 0;
+    }
+}
